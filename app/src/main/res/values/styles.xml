@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dialog style for bottom position -->
+    <style name="BottomDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+<!--        <item name="android:windowGravity">bottom</item>-->
+        <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
+
+    </style>
+
+<!--     Dialog animation style-->
+<!--    <style name="BottomDialogAnimation">-->
+<!--        <item name="android:windowEnterAnimation">@android:anim/slide_in_bottom</item>-->
+<!--        <item name="android:windowExitAnimation">@android:anim/slide_in_bottom</item>-->
+<!--    </style>-->
+
+    <!-- EditText style with box background and rounded corners -->
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColorHint">#888888</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <![CDATA[<style name="DialogAnimation">     <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>     <item name="android:windowExitAnimation">@anim/slide_out_bottom</item> </style> ]]></style>
+
+</resources>
